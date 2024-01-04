@@ -131,7 +131,7 @@ const ProductForm = () => {
       try {
         // Make the post request using Axios
         const response = await axios.post(
-          "http://localhost:3002/search-agent",
+          "http://13.51.85.49:3000/search-agent",
           finalData
         );
 
